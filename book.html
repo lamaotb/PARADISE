@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARADISE</title>
+    <!-- style link -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./book.css">
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <div id="navbar">
+            <img src="./img/logo.png" alt="PARADISE logo ">
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about ">About</a></li>
+                    <li><a href="index.html#menu ">Menu</a></li>
+                    <li><a href="index.html#gallery ">Gallery</a></li>
+                    <li><a href="index.html#contact ">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="book-content">
+            <form action="book.php" method="post" class="book-form">
+                <div class="margin-bottom">
+                    <label>
+                        Full Name
+                    </label>
+                    <input type="text" name="name" id="" required>
+                </div>
+                <div class="margin-bottom">
+                    <label>
+                        Email
+                    </label>
+                    <input type="email" name="email" id="" required placeholder="example@exapmle.com">
+                </div>
+                <div class="margin-bottom">
+                    <label>
+                        Phone Number
+                    </label>
+                    <input type="text" name="phone" id="" required placeholder="+123456789">
+                </div>
+                <div class="margin-bottom">
+                    <label>
+                        Date
+                    </label>
+                    <input type="date" name="date" id="" required>
+                </div>
+                <div class="margin-bottom">
+                    <label>
+                        Time
+                    </label>
+                    <input type="time" name="time" id="" required>
+                </div>
+                <div class="btn-container">
+                    <button type="submit" class="btn-submit">Book</button>
+                </div>
+            </form>
+        </div>
+    </header>
+</body>
+</html>
